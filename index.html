@@ -3,139 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Eid Abokor, Platform Engineer focused on AWS, Kubernetes, Terraform, GitOps, and production reliability."
-    />
-    <meta name="theme-color" content="#080c10" />
-    <title>Eid Abokor | Platform Engineer</title>
+    <meta name="description" content="Eid Abokor is a Data Platform Engineer building secure, observable cloud foundations for data, AI, and scientific workloads." />
+    <meta name="theme-color" content="#071210" />
+    <title>Eid Abokor | Data Platform Engineer</title>
     <link rel="preload" href="assets/eid-abokor.jpeg" as="image" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Eid Abokor home">
-        <span class="brand-mark">EA</span>
-        <span>Eid Abokor</span>
-      </a>
-
+      <a class="brand" href="#top" aria-label="Eid Abokor, home"><span class="brand-mark">EA</span><span>Eid Abokor</span></a>
       <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#stack">Stack</a>
-        <a href="#contact">Contact</a>
+        <a href="#about">About</a><a href="#experience">Journey</a><a href="#projects">Work</a><a href="#stack">Toolkit</a>
       </nav>
-
       <div class="header-actions">
-        <button class="theme-toggle" type="button" aria-label="Switch to light mode">
-          <span class="toggle-icon" aria-hidden="true"></span>
-        </button>
-
-        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
-          <span class="menu-line"></span>
-          <span class="menu-line"></span>
-          <span class="menu-line"></span>
-          <span class="sr-only">Menu</span>
-        </button>
+        <button class="theme-toggle" type="button" aria-label="Switch to light mode"><span class="toggle-icon" aria-hidden="true"></span></button>
+        <a class="header-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><b class="sr-only">Menu</b></button>
       </div>
     </header>
 
-    <main id="top">
-      <section class="hero">
-        <div class="mesh" aria-hidden="true"></div>
-        <div class="hero-copy">
-          <p class="eyebrow">Platform Engineer</p>
-          <h1>Eid Abokor</h1>
-          <p class="hero-line">AWS, Kubernetes, Terraform, GitOps.</p>
-          <p class="hero-summary">
-            I build quiet, reliable cloud platforms that stay observable, secure, and ready for
-            production.
-          </p>
-          <div class="hero-actions" aria-label="Portfolio actions">
-            <a class="button primary" href="#projects">View work</a>
-            <a class="button ghost" href="assets/Eid_Abokor_CV_Platform.pdf" download>CV</a>
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy reveal">
+          <p class="status"><span></span> Data Platform Engineer · UK</p>
+          <h1>Cloud platforms for <em>data and science.</em></h1>
+          <p class="hero-summary">I am Eid, a Data Platform Engineer. I build and support secure cloud infrastructure for applications, data pipelines, and AI and machine learning workloads.</p>
+          <div class="hero-actions"><a class="button primary" href="#projects">Explore my work <span>↓</span></a><a class="button secondary" href="assets/Eid_Abokor_CV_Platform.pdf" download>Download CV</a></div>
+          <dl class="hero-stats" aria-label="Career highlights"><div><dt>Data</dt><dd>Platform engineering</dd></div><div><dt>Cloud</dt><dd>Cloud agnostic</dd></div><div><dt>UK</dt><dd>Based in the UK</dd></div></dl>
+        </div>
+        <div class="hero-visual reveal">
+          <figure class="portrait"><img src="assets/eid-abokor.jpeg" alt="Eid Abokor, Data Platform Engineer" /></figure>
+          <div class="orbit-card card-ai"><span class="pulse"></span><small>Current focus</small><strong>AI + data platforms</strong></div>
+          <div class="orbit-card card-build"><small>Build philosophy</small><strong>Calm systems.<br />Clear signals.</strong></div>
+          <svg class="data-orbit" viewBox="0 0 500 500" aria-hidden="true"><circle cx="250" cy="250" r="205"/><circle cx="250" cy="250" r="160"/><path d="M45 250C120 80 380 420 455 250S120 80 45 250Z"/><g><circle cx="45" cy="250" r="6"/><circle cx="410" cy="145" r="6"/><circle cx="310" cy="405" r="6"/></g></svg>
+        </div>
+      </section>
+
+      <section class="intro section" id="about">
+        <div class="section-label"><span>01</span><p>What I do</p></div>
+        <div class="intro-copy reveal"><h2>I turn cloud requirements into <em>reliable foundations.</em></h2><p>I work across infrastructure, software, and data. My focus is building practical platforms that are secure, observable, and easy for engineers and scientists to use.</p>
+          <div class="capability-grid"><article><span>01</span><h3>Platform engineering</h3><p>AWS architecture, containers, infrastructure as code, and paved roads for engineering teams.</p></article><article><span>02</span><h3>Data &amp; AI foundations</h3><p>Scalable compute and storage patterns for pipelines, analytics, and machine learning workloads.</p></article><article><span>03</span><h3>Operational clarity</h3><p>Observability, automation, cost awareness, and security that make production systems easier to trust.</p></article></div>
+        </div>
+      </section>
+
+      <section class="journey section" id="experience">
+        <div class="section-label"><span>02</span><p>The journey</p></div>
+        <div class="journey-content reveal"><div class="section-heading"><p>Experience</p><h2>Cloud, systems, and <em>platform engineering.</em></h2></div>
+          <div class="timeline">
+            <article class="timeline-item current"><div class="timeline-date">Jul 2026 to Present</div><div><p class="company">Quotient Therapeutics · UK</p><h3>Data Platform Engineer</h3><p>Build and operate cloud infrastructure for development and production. Maintain infrastructure as code, improve CI/CD pipelines, and support compute, storage, container, database, and serverless services. Work with engineers and scientists on data pipelines, applications, AI and machine learning workloads, observability, security, reliability, and cloud costs.</p><div class="tags"><span>AWS</span><span>CDK</span><span>CI/CD</span><span>Data platforms</span><span>AI/ML</span><span>Observability</span></div></div></article>
+            <article class="timeline-item"><div class="timeline-date">Nov 2025 to Jun 2026</div><div><p class="company">Amazon Web Services</p><h3>Systems Engineer</h3><p>Supported production cloud environments, investigated operational issues, and improved repeatable workflows through automation.</p><div class="tags"><span>AWS</span><span>Operations</span><span>Automation</span></div></div></article>
+            <article class="timeline-item"><div class="timeline-date">Feb 2023 to Oct 2025</div><div><p class="company">University of Salford</p><h3>IT Support Engineer</h3><p>Supported hybrid infrastructure and cloud services, with a focus on systems, networking, and day-to-day operations.</p><div class="tags"><span>Azure</span><span>Hybrid cloud</span><span>Linux</span></div></div></article>
           </div>
         </div>
-
-        <figure class="portrait-card">
-          <img src="assets/eid-abokor.jpeg" alt="Portrait of Eid Abokor" />
-        </figure>
       </section>
 
-      <section class="experience-strip" id="experience" aria-label="Work experience">
-        <article>
-          <span>Nov 2025 - Present</span>
-          <h2>Systems Engineer</h2>
-          <p>Amazon Web Services · Production cloud support and automation.</p>
-        </article>
-        <article>
-          <span>Feb 2023 - Oct 2025</span>
-          <h2>IT Support Engineer</h2>
-          <p>University of Salford · Hybrid infrastructure, Azure, and operations.</p>
-        </article>
-      </section>
-
-      <section class="section projects" id="projects" aria-labelledby="projects-heading">
-        <div class="section-heading">
-          <p class="eyebrow">Selected Work</p>
-          <h2 id="projects-heading">Production-minded platform builds.</h2>
-        </div>
-
-        <div class="project-grid">
-          <a class="project-card" href="https://github.com/EidAbokor1/EKS-Status-Hub" target="_blank" rel="noreferrer">
-            <span class="project-meta">EKS · Flask · Kubernetes API</span>
-            <h3>EKS Status Hub</h3>
-            <p>Operational dashboard for checking cluster health, workload status, and platform signals quickly.</p>
-            <span class="project-link">Open project</span>
-          </a>
-
-          <a class="project-card" href="https://github.com/EidAbokor1/ECS-FIDER-APP" target="_blank" rel="noreferrer">
-            <span class="project-meta">ECS · Fargate · RDS</span>
-            <h3>Fider Cloud Platform</h3>
-            <p>Fargate deployment with ALB, ACM, Route 53, SES, Secrets Manager, PostgreSQL, and CI/CD.</p>
-            <span class="project-link">Open project</span>
-          </a>
+      <section class="work section" id="projects">
+        <div class="section-label"><span>03</span><p>Selected work</p></div>
+        <div class="work-content"><div class="section-heading reveal"><p>Projects</p><h2>Selected <em>cloud projects.</em></h2></div>
+          <div class="project-grid">
+            <a class="project-card project-featured reveal" href="https://github.com/EidAbokor1/EKS-Status-Hub" target="_blank" rel="noreferrer"><div class="project-top"><span>01 / Kubernetes operations</span><span>GitHub ↗</span></div><div class="project-graphic cluster" aria-hidden="true"><i></i><i></i><i></i><i></i><b></b></div><div><h3>EKS Status Hub</h3><p>An operational dashboard that turns Kubernetes cluster and workload signals into a clear, fast health view.</p><div class="tags"><span>EKS</span><span>Flask</span><span>Kubernetes API</span></div></div></a>
+            <a class="project-card reveal" href="https://github.com/EidAbokor1/ECS-FIDER-APP" target="_blank" rel="noreferrer"><div class="project-top"><span>02 / Cloud application</span><span>GitHub ↗</span></div><div class="project-graphic pipeline" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><div><h3>Fider Cloud Platform</h3><p>A production-minded Fargate deployment spanning networking, data, identity, email, secrets, and delivery automation.</p><div class="tags"><span>ECS</span><span>Fargate</span><span>RDS</span><span>CI/CD</span></div></div></a>
+          </div>
         </div>
       </section>
 
-      <section class="section stack" id="stack" aria-labelledby="stack-heading">
-        <div class="section-heading">
-          <p class="eyebrow">Stack</p>
-          <h2 id="stack-heading">Tools I reach for.</h2>
-        </div>
-
-        <div class="stack-grid">
-          <span>AWS</span>
-          <span>Azure</span>
-          <span>Docker</span>
-          <span>Kubernetes</span>
-          <span>Terraform</span>
-          <span>GitHub Actions</span>
-          <span>ArgoCD</span>
-          <span>Python</span>
-          <span>Bash</span>
-          <span>Prometheus</span>
-          <span>Grafana</span>
-          <span>Linux</span>
-        </div>
+      <section class="toolkit section" id="stack">
+        <div class="section-label"><span>04</span><p>Toolkit</p></div>
+        <div class="toolkit-content reveal"><div class="section-heading"><p>Working set</p><h2>Tools chosen for <em>clarity &amp; scale.</em></h2></div><div class="tool-groups"><article><h3>Cloud &amp; compute</h3><p>AWS · EC2 · ECS · EKS · Lambda · RDS · S3</p></article><article><h3>Build &amp; delivery</h3><p>CDK · Terraform · Docker · GitHub Actions · Argo CD</p></article><article><h3>Code &amp; systems</h3><p>Python · Bash · Linux · Git · REST APIs</p></article><article><h3>Observe &amp; improve</h3><p>CloudWatch · Prometheus · Grafana · IAM · FinOps</p></article></div></div>
       </section>
 
-      <section class="contact" id="contact" aria-labelledby="contact-heading">
-        <p class="eyebrow">Contact</p>
-        <h2 id="contact-heading">Let’s talk infrastructure.</h2>
-        <div class="contact-actions">
-          <a class="button primary" href="mailto:abokoreid1@yahoo.com">Email</a>
-          <a class="button ghost" href="https://www.linkedin.com/in/eid-abokor-6733911a1/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a class="button ghost" href="https://github.com/EidAbokor1" target="_blank" rel="noreferrer">GitHub</a>
-        </div>
-      </section>
+      <section class="contact" id="contact"><div class="contact-glow" aria-hidden="true"></div><p class="eyebrow">Get in touch</p><h2>Let’s talk about cloud,<br />data, and <em>platform engineering.</em></h2><p>If you would like to discuss my work or connect, send me a message.</p><div class="contact-actions"><a class="button light" href="mailto:abokoreid1@yahoo.com">Send me an email ↗</a><a href="https://www.linkedin.com/in/eid-abokor-6733911a1/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/EidAbokor1" target="_blank" rel="noreferrer">GitHub ↗</a></div></section>
     </main>
-
-    <footer class="site-footer">
-      <p>© <span id="year"></span> Eid Abokor</p>
-      <a href="#top">Back to top</a>
-    </footer>
-
+    <footer><a class="brand" href="#top"><span class="brand-mark">EA</span><span>Eid Abokor</span></a><p>Platform engineering, data, and automation.</p><p>© <span id="year"></span> · UK</p></footer>
     <script src="script.js"></script>
   </body>
 </html>

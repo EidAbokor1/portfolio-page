@@ -1,6 +1,6 @@
 # Eid Abokor Portfolio
 
-A static portfolio website for Eid Abokor, focused on platform engineering, AWS, Kubernetes, Terraform, GitOps, observability, and infrastructure automation.
+A static portfolio website for Eid Abokor, focused on platform engineering, cloud infrastructure, Kubernetes, infrastructure as code, GitOps, observability, and automation.
 
 ## Local Preview
 
