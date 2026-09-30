@@ -45,7 +45,7 @@ if ('IntersectionObserver' in window) {
   const navigationObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
-      siteNav?.querySelectorAll('a').forEach((link) => {
+      siteNav?.querySelectorAll('a[href^="#"]').forEach((link) => {
         if (link.hash === `#${entry.target.id}`) link.setAttribute('aria-current', 'location');
         else link.removeAttribute('aria-current');
       });
