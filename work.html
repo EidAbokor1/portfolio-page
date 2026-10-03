@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Platform engineering stories by Eid Abokor: deployment tooling, S3 attribution, cloud cost analysis, reliability, and AI workflows." />
   <meta name="theme-color" content="#0b0d11" />
-  <title>Things I’ve worked on | Eid Abokor</title>
+  <title>Selected work | Eid Abokor</title>
   <script>try{document.documentElement.dataset.theme=localStorage.getItem('eid-portfolio-theme')==='light'?'light':'dark'}catch{}</script>
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="work.css" />
@@ -17,21 +17,16 @@
   <header class="site-header"><div class="header-inner">
     <a class="brand" href="index.html" aria-label="Eid Abokor, home"><span class="brand-mark">e<span>.</span></span><span>Eid Abokor<span class="brand-role"> / Engineer</span></span></a>
     <nav class="site-nav" id="site-nav" aria-label="Primary navigation"><a href="work.html" aria-current="page">Work</a><a href="index.html#about">About</a><a href="index.html#experience">Experience</a><a href="index.html#stack">Stack</a></nav>
-    <div class="header-actions"><button class="theme-toggle" type="button" aria-label="Switch to light mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button><a class="header-contact" href="index.html#contact">Let’s talk <span aria-hidden="true">↗</span></a><button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button></div>
+    <div class="header-actions"><button class="theme-toggle" type="button" aria-label="Switch to light mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button><a class="header-contact" href="index.html#contact">Contact <span aria-hidden="true">↗</span></a><button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button></div>
   </div></header>
   <main id="main">
     <section class="work-hero container" id="top">
       <a class="text-link work-back" href="index.html">← Back to portfolio</a>
       <p class="eyebrow section-index">EID ABOKOR / PLATFORM ENGINEER</p>
-      <div class="work-intro"><h1>Things I’ve<br /><span>worked on.</span></h1><div><p>Platform Engineer at Quotient Therapeutics, previously Systems Engineer at AWS. I build cloud infrastructure, deployment tooling, and reliable platforms for data and AI teams.</p><p class="work-edition">MANCHESTER, UK · AWS · TERRAFORM · PYTHON · KUBERNETES</p><div class="work-actions"><a class="button primary" href="assets/Eid_Abokor_CV_2026-09-17.pdf" download>Download CV ↓</a><a class="button secondary" href="mailto:abokoreid1@yahoo.com">Contact me ↗</a></div></div></div>
-      <div class="work-highlights" aria-label="Selected outcomes">
-        <a href="#cdk-orchestration"><span class="highlight-label">DEPLOYMENT TIME</span><strong>60 <span>→</span> 15 min</strong><p>Roughly 75% less time deploying infrastructure <span aria-hidden="true">↗</span></p></a>
-        <a href="#s3-attribution"><span class="highlight-label">PROJECT ATTRIBUTION</span><strong>~99%</strong><p>Allocated across one ~803 TiB dataset <span aria-hidden="true">↗</span></p></a>
-        <a href="#s3-costs"><span class="highlight-label">COST OPPORTUNITY</span><strong>~$60k<span> / yr</span></strong><p>Estimated annualised avoidance identified <span aria-hidden="true">↗</span></p></a>
-      </div>
+      <div class="work-intro"><h1>Selected<br /><span>work.</span></h1><div><p>Projects supporting developers, data scientists, ML engineers, and AI engineers. Here’s what I built and the results.</p><p class="work-edition">MANCHESTER, UK · AWS · TERRAFORM · PYTHON · KUBERNETES</p><div class="work-actions"><a class="button primary" href="assets/Eid_Abokor_CV_2026-09-17.pdf" download>Download CV ↓</a><a class="button secondary" href="mailto:abokoreid1@yahoo.com">Contact me ↗</a></div></div></div>
     </section>
     <section class="container stories-section" aria-labelledby="stories-heading">
-      <div class="stories-heading"><h2 id="stories-heading">My contribution & impact.</h2><p id="story-count" role="status" aria-live="polite" aria-atomic="true">5 projects</p></div>
+      <div class="stories-heading"><h2 id="stories-heading">Projects</h2><p id="story-count" role="status" aria-live="polite" aria-atomic="true">5 projects</p></div>
       <div class="story-filters" role="group" aria-label="Filter projects by topic" hidden>
         <button type="button" data-filter="all" aria-pressed="true">All projects</button>
         <button type="button" data-filter="delivery" aria-pressed="false">Developer experience</button>
@@ -41,95 +36,68 @@
       </div>
       <div class="story-grid">
         <article class="story-card" id="cdk-orchestration" data-category="delivery" aria-labelledby="cdk-orchestration-title">
-          <div class="story-meta"><span>01 / Developer experience</span><a href="#cdk-orchestration" aria-label="Link to project: CDK deployment orchestration">#</a></div>
-          <h3 id="cdk-orchestration-title">CDK deployment orchestration</h3>
-          <p class="story-summary"><span class="contribution-label">MY CONTRIBUTION</span>I built an internal tool that detects changed CDK apps, resolves dependencies, and automates selective deployments.</p>
+          <div class="story-meta"><span>01 / Developer experience</span><a href="#cdk-orchestration" aria-label="Link to project: CDK deployment tool">#</a></div>
+          <h3 id="cdk-orchestration-title">CDK deployment tool</h3>
+          <p class="story-summary"><span class="contribution-label">WHAT I DID</span>I built a tool that finds changed CDK apps and deploys them in dependency order.</p>
           <div class="story-outcome"><strong>~60 → 15 min</strong><span>Measured deployment time</span></div>
           <p class="impact-description">Reduced deployment time by roughly 75%, from about an hour to 15 minutes.</p>
           <div class="tags"><span>AWS CDK</span><span>Git</span><span>Deployment tooling</span></div>
-          <details><summary><span>Technical details &amp; approach</span><span class="detail-toggle" aria-hidden="true">+</span></summary><div class="story-details">
-            <h4>The problem</h4><p>Multiple independent CDK apps lived in the same repositories. Whole-repository Bash deployments were slow and hard to manage.</p>
-            <h4>What I did</h4><ul><li>Built CDK Grunt, an internal tool that discovers CDK apps and maps Git changes to the apps they affect.</li><li>Resolved dependency-aware deployment order and added changed-only deployment and diff workflows.</li><li>Replaced repeated Bash deployment logic with reusable tooling and clear failure reporting.</li></ul>
-            <h4>Result</h4><p>Infrastructure deployment time fell from roughly 60 minutes to 15 minutes — about a 75% reduction.</p>
-            <div class="story-lesson"><h4>The takeaway</h4><p>Understanding app boundaries and dependencies made selective deployment practical.</p></div>
+          <details><summary><span>Details</span><span class="detail-toggle" aria-hidden="true">+</span></summary><div class="story-details">
+            <p>Deploying every CDK app in a repository took about an hour. I built a tool that maps Git changes to apps, checks dependencies, and deploys only what needs to change.</p><ul><li>Added change-only deployment and diff commands.</li><li>Replaced repeated Bash scripts with shared tooling and failure reports.</li></ul>
           </div></details>
         </article>
         <article class="story-card" id="s3-platform" data-category="data reliability" aria-labelledby="s3-platform-title">
           <div class="story-meta"><span>02 / Data &amp; cost engineering</span><a href="#s3-platform" aria-label="Link to project: S3 attribution &amp; storage optimisation">#</a></div>
           <h3 id="s3-platform-title">S3 attribution &amp; storage optimisation</h3>
-          <p class="story-summary"><span class="contribution-label">MY CONTRIBUTION</span>I designed and built S3 project attribution, analysed storage costs, and tuned processing reliability across large datasets.</p>
+          <p class="story-summary"><span class="contribution-label">WHAT I DID</span>I built a tool to assign S3 objects to projects, analysed old object versions, and tested tagging reliability.</p>
           <div class="story-outcome"><strong>~99% allocated</strong><span>One ~803 TiB dataset</span></div>
-          <p class="impact-description">Reached ~99% allocation on one ~803 TiB dataset and identified an estimated ~$60k/year in cost avoidance.</p>
+          <p class="impact-description">Assigned roughly 99% of one 803 TiB dataset to projects. Separate analysis identified about $60k/year in potential storage savings.</p>
           <div class="tags"><span>S3 Inventory</span><span>Athena</span><span>Lambda</span><span>S3 Batch Operations</span></div>
-          <details><summary><span>Technical details &amp; approach</span><span class="detail-toggle" aria-hidden="true">+</span></summary><div class="story-details">
-            <section class="project-chapter" id="s3-attribution" aria-labelledby="s3-attribution-heading"><h4 class="chapter-heading" id="s3-attribution-heading">01 / Project attribution</h4><h5>The problem</h5><p>Large S3 datasets lacked consistent project attribution, making ownership and storage-cost allocation difficult.</p>
-            <h5>What I did</h5><ul><li>Investigated metadata and existing mappings, then designed a workflow using S3 Inventory, Athena, S3 Batch Operations, Lambda, and object tagging.</li><li>Built a resolver that allocates objects only when there is enough evidence; uncertain objects remain unallocated.</li><li>Used version-aware manifests, dry runs, backups, and reconciliation, while preserving unrelated object tags.</li></ul>
-            <h5>Result</h5><p>One dataset of roughly 803 TiB reached approximately 99% project allocation.</p>
-            <div class="story-lesson"><h5>The takeaway</h5><p>At this scale, explicit uncertainty and reversible changes matter as much as coverage.</p></div></section><section class="project-chapter" id="s3-costs" aria-labelledby="s3-costs-heading"><h4 class="chapter-heading" id="s3-costs-heading">02 / Noncurrent versions &amp; cost analysis</h4><h5>The problem</h5><p>Historical, noncurrent S3 object versions were consuming significant storage.</p>
-            <h5>What I did</h5><ul><li>Used S3 Inventory and Athena to identify old versions and quantify potential storage savings.</li><li>Identified approximately 1.56 million noncurrent versions consuming around 210 TiB.</li><li>Helped establish tracking for archive and deletion savings and further lifecycle optimisation.</li></ul>
-            <h5>Estimated cost avoidance</h5><p>Identified an estimated $60k in annualised storage-cost avoidance, with additional opportunities for lifecycle and archive optimisation. Realised savings require separate tracking.</p>
-            <div class="story-lesson"><h5>The takeaway</h5><p>Separate identified opportunities, estimates, and achieved savings when reporting cost impact.</p></div></section><section class="project-chapter" id="lambda-concurrency" aria-labelledby="lambda-concurrency-heading"><h4 class="chapter-heading" id="lambda-concurrency-heading">03 / Concurrency &amp; reliable processing</h4><h5>The problem</h5><p>Increasing concurrency during large-scale S3 tagging correlated with more processing failures.</p>
-            <h5>What I did</h5><ul><li>Tested different concurrency levels and compared reliability.</li><li>Explored whether ECS workers could provide more control over worker count, request rate, retries, and back-pressure.</li><li>Recognised that both Lambda and ECS still call S3 APIs; a runtime change alone would not remove downstream pressure.</li></ul>
-            <h5>Tested finding</h5><p>Testing showed that reducing Lambda concurrency improved reliability. ECS workers remained an option under discussion for finer processing control.</p>
-            <div class="story-lesson"><h5>The takeaway</h5><p>The useful question is how fast millions of objects can be processed safely without overwhelming downstream systems.</p></div></section>
+          <details><summary><span>Details</span><span class="detail-toggle" aria-hidden="true">+</span></summary><div class="story-details">
+            <section class="project-chapter" id="s3-attribution" aria-labelledby="s3-attribution-heading"><h4 class="chapter-heading" id="s3-attribution-heading">Project attribution</h4><p>Storage ownership was unclear. I used S3 Inventory, Athena, Batch Operations, and Lambda to tag objects with their project. Objects without enough evidence stayed unallocated.</p><p>The process used version-aware manifests, dry runs, backups, and reconciliation. Existing unrelated tags were preserved.</p></section>
+<section class="project-chapter" id="s3-costs" aria-labelledby="s3-costs-heading"><h4 class="chapter-heading" id="s3-costs-heading">Old object versions</h4><p>Inventory analysis found about 1.56 million noncurrent versions using roughly 210 TiB. This identified an estimated $60k in annual storage savings, subject to archive or deletion decisions. It is an estimate, not confirmed savings.</p></section>
+<section class="project-chapter" id="lambda-concurrency" aria-labelledby="lambda-concurrency-heading"><h4 class="chapter-heading" id="lambda-concurrency-heading">Tagging reliability</h4><p>Higher Lambda concurrency caused more processing failures in testing. Lowering it improved reliability. I also explored ECS workers for more control over request rates and retries; moving runtimes alone would not remove pressure on S3.</p></section>
           </div></details>
         </article>
         <article class="story-card" id="application-platform" data-category="delivery reliability" aria-labelledby="application-platform-title">
           <div class="story-meta"><span>03 / Delivery &amp; reliability</span><a href="#application-platform" aria-label="Link to project: Application delivery &amp; recovery">#</a></div>
           <h3 id="application-platform-title">Application delivery &amp; recovery</h3>
-          <p class="story-summary"><span class="contribution-label">MY CONTRIBUTION</span>I worked on isolated UAT, immutable image promotion, and cross-account database recovery, alongside reusable deployment patterns.</p>
-          <div class="story-outcome"><strong>UAT → production</strong><span>Promotion &amp; recovery work</span></div>
-          <p class="impact-description">Tested recovery and documented procedures. Safer promotion and measurable recovery targets remain ongoing work.</p>
+          <p class="story-summary"><span class="contribution-label">WHAT I DID</span>I worked on a separate test environment, container releases, and database recovery across AWS accounts.</p>
+          <div class="story-outcome"><strong>UAT → production</strong><span>Work in progress</span></div>
+          <p class="impact-description">Tested database restores and documented the steps. Release changes and recovery targets are still in progress.</p>
           <div class="tags"><span>GitLab CI/CD</span><span>OIDC</span><span>Containers</span><span>Amazon RDS</span></div>
-          <details><summary><span>Technical details &amp; approach</span><span class="detail-toggle" aria-hidden="true">+</span></summary><div class="story-details">
-            <section class="project-chapter" id="immutable-promotion" aria-labelledby="immutable-promotion-heading"><h4 class="chapter-heading" id="immutable-promotion-heading">01 / UAT &amp; immutable promotion</h4><h5>The problem</h5><p>An application platform needed a safer way to test and promote changes into production.</p>
-            <h5>What I did</h5><ul><li>Worked on an isolated UAT environment and an immutable container promotion model.</li><li>Separated application deployment responsibilities from infrastructure management.</li><li>Designed least-privilege GitLab OIDC access for deployment workflows.</li></ul>
-            <h5>Design goal</h5><p>The goal is to validate an image in UAT and promote that same artifact to production, reducing drift and making deployments easier to reason about.</p>
-            <div class="story-lesson"><h5>The takeaway</h5><p>Clear ownership boundaries and artifact identity make the release path easier to understand.</p></div></section><section class="project-chapter" id="disaster-recovery" aria-labelledby="disaster-recovery-heading"><h4 class="chapter-heading" id="disaster-recovery-heading">02 / Disaster recovery</h4><h5>The problem</h5><p>The team needed confidence that the platform could recover from database or infrastructure failure.</p>
-            <h5>What I did</h5><ul><li>Worked on RDS recovery testing and cross-account backup and restore into an isolated disaster recovery environment.</li><li>Tested restoration rather than relying only on the existence of backups.</li><li>Documented recovery procedures and worked toward measurable recovery objectives.</li></ul>
-            <h5>Recovery work</h5><p>Tested recovery and documented procedures. Measurable recovery time and recovery point objectives (RTO/RPO) remain a work in progress.</p>
-            <div class="story-lesson"><h5>The takeaway</h5><p>A backup becomes useful operational evidence when the recovery process is exercised.</p></div></section><section class="project-chapter" id="golden-path" aria-labelledby="golden-path-heading"><h4 class="chapter-heading" id="golden-path-heading">03 / Related work: a reusable deployment path</h4><h5>The problem</h5><p>Application delivery could require separate application and infrastructure changes, creating manual steps and ambiguity about ownership.</p>
-            <h5>What I did</h5><ul><li>Worked on a deployment model where application repositories can deploy within platform-defined guardrails.</li><li>Used reusable infrastructure patterns, least-privilege roles, gated promotion, and immutable artifacts.</li><li>Defined boundaries between stable platform infrastructure and application deployment.</li></ul>
-            <h5>Design goal</h5><p>The goal is to reduce manual deployment steps and configuration drift while avoiding competing control planes.</p>
-            <div class="story-lesson"><h5>The takeaway</h5><p>A useful platform makes the supported path clear and gives teams room to work within it.</p></div></section>
+          <details><summary><span>Details</span><span class="detail-toggle" aria-hidden="true">+</span></summary><div class="story-details">
+            <section class="project-chapter" id="immutable-promotion" aria-labelledby="immutable-promotion-heading"><h4 class="chapter-heading" id="immutable-promotion-heading">Testing and releases</h4><p>I worked on an isolated user acceptance testing (UAT) environment and a release process that promotes the same container image into production. I designed GitLab OIDC access with limited deployment permissions.</p></section>
+<section class="project-chapter" id="disaster-recovery" aria-labelledby="disaster-recovery-heading"><h4 class="chapter-heading" id="disaster-recovery-heading">Database recovery</h4><p>I worked on RDS restore tests across AWS accounts, using an isolated recovery environment, and documented the recovery steps. Recovery time and data-loss targets are still being defined.</p></section>
+<section class="project-chapter" id="golden-path" aria-labelledby="golden-path-heading"><h4 class="chapter-heading" id="golden-path-heading">Related deployment work</h4><p>I also worked on shared deployment patterns: application repositories handle releases, while the platform manages infrastructure, permissions, and approval stages. The aim is to reduce manual steps and conflicting configuration changes.</p></section>
           </div></details>
         </article>
         <article class="story-card" id="ai-reviewer" data-category="ai-security" aria-labelledby="ai-reviewer-title">
           <div class="story-meta"><span>04 / AI &amp; developer tooling</span><a href="#ai-reviewer" aria-label="Link to project: AI reviewer platform">#</a></div>
           <h3 id="ai-reviewer-title">AI reviewer platform</h3>
-          <p class="story-summary"><span class="contribution-label">MY CONTRIBUTION</span>I took ownership of the platform around an AI reviewer: service identity, CI security, webhook reliability, and onboarding.</p>
-          <div class="story-outcome"><strong>Platform ownership</strong><span>Ongoing work</span></div>
-          <p class="impact-description">Ongoing work to make the service reliable and repeatable for additional teams, with usage and cost visibility.</p>
+          <p class="story-summary"><span class="contribution-label">WHAT I DID</span>I manage the infrastructure for an AI code reviewer, including credentials, CI configuration, and GitLab webhooks.</p>
+          <div class="story-outcome"><strong>Service infrastructure</strong><span>Ongoing work</span></div>
+          <p class="impact-description">Working on error handling, usage tracking, and setup instructions for more teams.</p>
           <div class="tags"><span>GitLab</span><span>AI tooling</span><span>Service identity</span></div>
-          <details><summary><span>Technical details &amp; approach</span><span class="detail-toggle" aria-hidden="true">+</span></summary><div class="story-details">
-            <h4>The problem</h4><p>An AI reviewer prototype already had working GitLab hooks, but needed a reliable platform that other teams could safely use.</p>
-            <h4>What I did</h4><ul><li>Took ownership of platform engineering: service-account identity, dedicated API credentials, and secure CI configuration.</li><li>Focused on webhook reliability, failure handling, cost and usage visibility, and documentation.</li><li>Preserved read-only restrictions and used dry runs for real merge request testing.</li></ul>
-            <h4>Ongoing work</h4><p>The platform work focuses on reliable service operation, secure access, usage visibility, and repeatable onboarding. Model, prompt, and review-quality work is owned separately.</p>
-            <div class="story-lesson"><h4>The takeaway</h4><p>Productionising AI also means owning identity, reliability, operational costs, and the onboarding experience.</p></div>
+          <details><summary><span>Details</span><span class="detail-toggle" aria-hidden="true">+</span></summary><div class="story-details">
+            <p>The reviewer already had working GitLab hooks. My part is the service infrastructure: service accounts, API credentials, CI settings, webhook failures, and usage costs. Another engineer handles the model and review quality.</p><p>I kept the reviewer’s read-only restrictions and used dry runs when testing on real merge requests. Documentation and onboarding for additional projects are ongoing.</p>
           </div></details>
         </article>
         <article class="story-card" id="security-automation" data-category="ai-security" aria-labelledby="security-automation-title">
-          <div class="story-meta"><span>05 / Security automation</span><a href="#security-automation" aria-label="Link to project: Wiz finding-to-ticket workflow">#</a></div>
-          <h3 id="security-automation-title">Wiz finding-to-ticket workflow</h3>
-          <p class="story-summary"><span class="contribution-label">MY CONTRIBUTION</span>I built an agent workflow that investigates security findings, identifies likely owners, and prepares remediation tickets.</p>
-          <div class="story-outcome"><strong>Human-approved workflow</strong><span>Workflow built</span></div>
-          <p class="impact-description">Creates one trackable ticket after human approval, with duplicate checks and an audit trail.</p>
+          <div class="story-meta"><span>05 / Security automation</span><a href="#security-automation" aria-label="Link to project: Security ticket automation">#</a></div>
+          <h3 id="security-automation-title">Security ticket automation</h3>
+          <p class="story-summary"><span class="contribution-label">WHAT I DID</span>I built an AI workflow that reads Wiz findings, checks the affected code, and drafts a ticket for review.</p>
+          <div class="story-outcome"><strong>Approval before writes</strong><span>Implemented</span></div>
+          <p class="impact-description">Checks for duplicates and creates a Notion ticket after approval. Leaves Wiz and GitLab unchanged.</p>
           <div class="tags"><span>Wiz</span><span>GitLab</span><span>Notion</span><span>AI agents</span></div>
-          <details><summary><span>Technical details &amp; approach</span><span class="detail-toggle" aria-hidden="true">+</span></summary><div class="story-details">
-            <h4>The problem</h4><p>Security alerts required manual investigation to locate affected code, identify an owner, and define remediation work.</p>
-            <h4>What I did</h4><ul><li>Built a workflow that reads the finding and identifies the affected repository or dependency.</li><li>Used Git history to investigate likely ownership and checked Notion for duplicate tickets.</li><li>Prepared a consistent Service Desk ticket with evidence and remediation instructions, requiring human approval before writing.</li></ul>
-            <h4>Workflow built</h4><p>Security findings become assigned, trackable remediation work with human control and an audit trail. After approval, the workflow creates one Notion ticket and does not modify Wiz or GitLab.</p>
-            <div class="story-lesson"><h4>The takeaway</h4><p>Useful automation can prepare the investigation while keeping consequential actions explicit and reviewable.</p></div>
+          <details><summary><span>Details</span><span class="detail-toggle" aria-hidden="true">+</span></summary><div class="story-details">
+            <p>Investigating a Wiz alert meant finding the affected repository, checking ownership, and writing a ticket by hand. I connected Wiz, GitLab, and Notion to prepare that work.</p><ul><li>Read the finding and locate the affected repository or dependency.</li><li>Check Git history for likely ownership and Notion for duplicate tickets.</li><li>Draft a ticket with evidence and remediation steps.</li><li>Create one Notion ticket only after human approval.</li></ul>
           </div></details>
         </article>
       </div>
     </section>
-    <section class="container ownership-context" aria-labelledby="ownership-heading" id="platform-ownership">
-      <p class="eyebrow section-index">ACROSS THE PROJECTS / ONGOING RESPONSIBILITY</p>
-      <div><h2 id="ownership-heading">Owning the platform<br />behind the teams.</h2><div><p>As the primary Platform Engineer supporting data engineering, AI, and bioinformatics, I work across AWS, EKS/ECS, IAM, networking, storage, deployment, observability, and reliability.</p><p>I work directly with scientists and technical teams to turn requirements into infrastructure solutions, with increasing responsibility for architecture decisions, operational standards, security, and documentation.</p></div></div>
-    </section>
-    <section class="container work-closing" aria-labelledby="work-contact-heading"><div><p class="eyebrow section-index">LET’S TALK ENGINEERING</p><h2 id="work-contact-heading">Let’s talk about your team.</h2><p>Get in touch to discuss platform engineering opportunities and the experience I could bring to your team.</p></div><a class="button primary" href="mailto:abokoreid1@yahoo.com">Get in touch <span aria-hidden="true">↗</span></a></section>
+    <section class="container work-closing" aria-labelledby="work-contact-heading"><div><p class="eyebrow section-index">CONTACT</p><h2 id="work-contact-heading">Contact me</h2><p>Email me about a role or ask about any of these projects.</p></div><a class="button primary" href="mailto:abokoreid1@yahoo.com">Email me <span aria-hidden="true">↗</span></a></section>
   </main>
-  <footer class="container"><a class="brand" href="index.html"><span class="brand-mark">e<span>.</span></span><span>Eid Abokor</span></a><p>© <span id="year">2026</span> · Built with purpose.</p><a class="back-top" href="#top">Back to top ↑</a></footer>
+  <footer class="container"><a class="brand" href="index.html"><span class="brand-mark">e<span>.</span></span><span>Eid Abokor</span></a><p>© <span id="year">2026</span> · Eid Abokor</p><a class="back-top" href="#top">Back to top ↑</a></footer>
 </body>
 </html>
